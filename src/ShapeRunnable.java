@@ -21,7 +21,7 @@ public class ShapeRunnable implements Runnable {
 			}
 			
 			shape.transition();
-			shape.rotate();
+			shape.shade();
 			
 			this.drawPanel.repaint();
 		}
