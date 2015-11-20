@@ -26,5 +26,8 @@ public class ShapeRunnable implements Runnable {
 			this.drawPanel.repaint();
 		}
 	}
+	
+	
+	
 
 }
