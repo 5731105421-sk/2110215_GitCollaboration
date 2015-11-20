@@ -30,7 +30,21 @@ public class Shape implements Transitionable, Shadable{
 
 	public void shade(){
 		
-		if(redValue<=0||redValue>=255)count++;
+		
+		
+		if(redValue<=0){
+			redValue=0;
+			count++;
+			
+		}
+		
+		if(redValue>=255){
+			redValue=255;
+			count++;
+			
+		}
+		
+		
 	
 		if(count%2==1)redValue-=17;
 		else redValue+=17;
